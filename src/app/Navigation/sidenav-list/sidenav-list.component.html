@@ -1,0 +1,21 @@
+<mat-nav-list>
+    <a  mat-list-item routerLink="/signup" (click)="isClose()">
+        <mat-icon>face</mat-icon>
+        <span class="nav-caption">Jobs</span>
+    </a>
+    <a  mat-list-item routerLink="/login" (click)="isClose()">
+        <mat-icon> input</mat-icon>
+        <span class="nav-caption">Pricing</span>
+    </a>
+    <a  mat-list-item routerLink="/training" (click)="isClose()">
+        <mat-icon>fitness_center</mat-icon>
+        <span class="nav-caption">Free Demo</span>
+    </a>
+    <mat-list-item >
+        <button  mat-icon-button (click)="islogout()">
+            <mat-icon>eject</mat-icon>
+            <span class="nav-caption">Login</span>
+        </button>
+    </mat-list-item>
+
+</mat-nav-list>

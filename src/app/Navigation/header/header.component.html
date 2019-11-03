@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+       <button (click)="isSidenavToggle()" mat-icon-button> 
+          <mat-icon>menu</mat-icon>
+      </button>
+  </div>
+  <div>
+      <a routerLink="/">LOGO</a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxLayoutAlign.xs="flex-end" fxLayoutAlign.sm="flex-end" fxHide.xs>
+      <ul fxLayout class="navigation-items" fxLayoutGap="25px"fxLayoutGap.xs="25px" fxLayoutGap.sm="25px" fxLayoutGap.md="25px">
+          <li > <a routerLink="/signup">Jobs</a></li>
+          <li ><a routerLink="/login">Pricing</a></li>
+          <li ><a routerLink="/training">Free Demo</a></li>
+          <li  ><a (click)="islogout()">Login</a></li>
+      </ul>
+
+
+
+  </div>
+</mat-toolbar>
+
+
+  

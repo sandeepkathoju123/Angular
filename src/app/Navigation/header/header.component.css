@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-items{
+    list-style: none;
+}
+a:hover,a:active{
+    color: lightgray;
+}
